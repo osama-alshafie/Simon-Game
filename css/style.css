@@ -1,0 +1,141 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccaa77;
+}
+.green{
+    background-color: #22aa22;
+}
+.green-1{
+    background-color: #22dd22;
+}
+.blue{
+    background-color: #2222aa;
+}
+.blue-1{
+    background-color: #2222dd;
+}
+.yellow{
+    background-color: #aaaa33;
+}
+.yellow-1{
+    background-color: #dddd33;
+}
+.red{
+    background-color: #aa2222;
+}
+.red-1{
+    background-color: #dd2222;
+}
+.container{
+    display: block;
+    position: relative;
+    width: 380px;
+    height: 380px;
+    margin: 130px auto 20px;
+    border: 20px solid #000;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.container .section{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+.container .section-1{
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.container .section-2{
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.container .section-3{
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+}
+.container .section-4{
+    border-left: 10px solid #000;
+    border-top: 10px solid #000;
+}
+.container .section-1:active {
+    background-color: #22dd22;
+}
+.container .section-2:active{
+    background-color: #2222dd;
+}
+.container .section-3:active{
+    background-color: #dddd22;
+}
+.container .section-4:active{
+    background-color: #dd2222;
+}
+.container .control-section{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    border: 10px solid #000;
+    border-radius: 100%;
+    text-align: center;
+    z-index: 2;
+    background-color: #ccc;
+}
+.container .control-section h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.container .control-section .counter{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    color: #dd2200;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.container .control-section .btn-start,
+.container .control-section .btn-strict{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-left: 20px;
+    border: 3px solid #000;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.container .control-section .express span{
+    display: inline-block;
+    font-size: 12px;
+}
+.container .control-section .express span.exp1{
+    width: 50px;
+}
+.container .control-section .express span.exp2{
+    margin-left: 15px;
+    width: 20px;
+}
+.container .control-section .express span.exp3{
+    margin-left: 20px;
+    width: 20px;
+}
+footer {
+    color: #eee;
+    font-size: 22px;
+    text-align: center;
+}
+footer span {
+    color: #2222aa;
+    font-weight: 700;
+}
